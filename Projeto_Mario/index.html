@@ -1,19 +1,63 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Mario Bros</title>
 </head>
 
-    <body>
-        <img src="./img/logo.png" alt="Logo-Site-Mario-Bros">
+<body>
+    <div class="cabecalho">
+        <img 
+            alt="logo-cabecalho"
+            src="./img/logo-cabecalho.png" />
+            <a>Home</a>
+            <a>Fale Conosco</a>
+            <a>Nossos Serviços</a>
+    </div>
+    <div class="caixa-principal">
+        <div class="caixa-info-texto">
+            <img src="./img/logo.png" alt="Logo-Site-Mario-Bros" class="logo-mario" />
 
-    <p> 
-        Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidraulicos Com Estilo
-        Você já se deparou com uma situação de emergencia com encanamento? Vazamento inesperado, canos 
-        entupidos ou torneiras que não param de pingas? Não se preocupe, porque estamos aqui para salvar o dia!
-        Apresentamos a vocês os encanadors mais famosos do Reino dos Cogumelos - Mario e Luigi!
-    </p>
-    </body>
+            <p>
+                🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidraulicos Com Estilo! 🔧
+            </p>
+
+            <p>
+                Você já se deparou com uma situação de emergencia com encanamento? Vazamento inesperado, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadors mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+
+            <button>Entre em contato</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="imagem-mario-luigi" class="logo-luigi-mario" />
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay loop muted></video>
+        <div class="mascara-video"></div>
+    </div>
+
+    <div class="caixa-link-whats">
+        <a href="https://wa.me/5511987291623?text=Vim%20pelo%20site.%0AGostaria%20de%20marcar%20uma%20visita" class="link-whats">
+            <img src="./img/whatsapp.png" alt="whatsapp">
+        </a>
+    </div>
+
+    <form>
+        <input placeholder="Seu nome" />
+        <input placeholder="Seu email"/>
+        <textarea placeholder="Digite seu problema aqui..."></textarea>
+        <button>Pedir orçamento</button>
+    </form>
+
+    <div class="mascara-formulario"></div>
+</body>
+
 </html>
