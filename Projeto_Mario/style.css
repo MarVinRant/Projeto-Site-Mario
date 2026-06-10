@@ -144,13 +144,69 @@ form textarea {
     height: 100%;
     position: fixed;
     top: 0;
-    background: linear-gradient(
-    109deg, 
-    rgba(10, 12, 16, 0.99) 15%,
-    rgba(10, 12, 16, 0.7) 50%,
-    rgba(10, 12, 16, 0.99) 85%
-    );
+    background: linear-gradient(109deg,
+            rgba(10, 12, 16, 0.99) 15%,
+            rgba(10, 12, 16, 0.7) 50%,
+            rgba(10, 12, 16, 0.99) 85%);
     visibility: hidden;
-        transition: 0.5s visibility ease-in-out;
+    transition: 0.5s visibility ease-in-out;
 
 }
+
+/* --- ESTILOS DA PÁGINA DE SERVIÇOS --- */
+
+.fundo-escuro {
+    /* Simula o fundo escuro do vídeo da página principal */
+    background: linear-gradient(109deg,
+            rgba(10, 12, 16, 0.99) 15%,
+            rgba(10, 12, 16, 0.85) 50%,
+            rgba(10, 12, 16, 0.99) 85%);
+    background-color: #0a0c10;
+    height: 100vh;
+}
+
+.caixa-servicos {
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.caixa-servicos h1 {
+    color: #c51111; /* Vermelho do botão */
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.lista-servicos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card-servico {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid #c51111;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    transition: 0.4s ease-in-out;
+}
+
+.card-servico:hover {
+    transform: translateY(-10px); /* Efeito de pular ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 10px 20px rgba(197, 17, 17, 0.3);
+}
+
+.card-servico h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card-servico p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
