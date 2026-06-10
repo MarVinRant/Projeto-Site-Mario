@@ -153,7 +153,7 @@ form textarea {
 
 }
 
-/* --- ESTILOS DA PÁGINA DE SERVIÇOS --- */
+/* --- ESTILOS DA PÁGINA DE SERVIÇOS ---  */
 
 .fundo-escuro {
     /* Simula o fundo escuro do vídeo da página principal */
@@ -171,7 +171,7 @@ form textarea {
 }
 
 .caixa-servicos h1 {
-    color: #c51111; /* Vermelho do botão */
+    color: #c51111;
     font-size: 40px;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -194,7 +194,7 @@ form textarea {
 }
 
 .card-servico:hover {
-    transform: translateY(-10px); /* Efeito de pular ao passar o mouse */
+    transform: translateY(-10px);
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 10px 20px rgba(197, 17, 17, 0.3);
 }
@@ -208,5 +208,4 @@ form textarea {
 .card-servico p {
     font-size: 18px;
     line-height: 1.5;
-}
-
+} 
