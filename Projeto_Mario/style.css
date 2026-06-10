@@ -84,6 +84,7 @@ p {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .cabecalho a:hover {
@@ -111,10 +112,6 @@ form {
     top: 40%;
     left: -345px;
 
-    /* Posição final
-    left: 50%;
-    transform: translateX(-50%); */
-
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -123,6 +120,7 @@ form {
     border-radius: 3px;
     width: 350px;
     z-index: 1;
+    transition: 0.5s left ease-in-out;
 }
 
 form input {
@@ -152,4 +150,7 @@ form textarea {
     rgba(10, 12, 16, 0.7) 50%,
     rgba(10, 12, 16, 0.99) 85%
     );
+    visibility: hidden;
+        transition: 0.5s visibility ease-in-out;
+
 }
