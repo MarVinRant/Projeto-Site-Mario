@@ -1,9 +1,3 @@
-// 
-// 
-// 
-// 
-
-
 const formulario = document.querySelector(".formulario");
 const mascara = document.querySelector(".mascara-formulario")
 
@@ -14,7 +8,7 @@ function mostrarForms() {
 }
 
 function esconderForm(){
-    formulario.style.left = "-340px";
+    formulario.style.left = "-400px";
     formulario.style.transform = "translateX(0)";
     mascara.style.visibility = "hidden";
 }
