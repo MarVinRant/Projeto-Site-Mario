@@ -49,10 +49,13 @@ body {
 }
 
 video {
-    min-width: 100vw;    /* Mudamos de vh para vw */
+    min-width: 100vw;
+    /* Mudamos de vh para vw */
     min-height: 100vh;
-    object-fit: cover;   /* Faz o vídeo cobrir toda a área proporcionalmente */
-    position: fixed;     /* Garante que o vídeo fique travado no fundo */
+    object-fit: cover;
+    /* Faz o vídeo cobrir toda a área proporcionalmente */
+    position: fixed;
+    /* Garante que o vídeo fique travado no fundo */
     top: 0;
     left: 0;
 }
@@ -66,7 +69,8 @@ video {
     height: 100%;
     position: fixed;
     top: 0;
-    left: 0;    right: 0;
+    left: 0;
+    right: 0;
 }
 
 p {
